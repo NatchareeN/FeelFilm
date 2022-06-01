@@ -1,5 +1,5 @@
 <?php
-$conn= mysqli_connect("localhost","group3","12345","feelfilm") 
+$conn= mysqli_connect("","","","") 
 or die("Error: " . mysqli_error($conn));
 mysqli_query($conn, "SET NAMES 'utf8' ");
 $query=mysqli_query($conn,"SELECT COUNT(id) FROM review");
