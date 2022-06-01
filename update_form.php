@@ -1,9 +1,6 @@
 <?php
   session_start();
-	define('DB_HOST', 'localhost');
-  define('DB_USER', 'group3');
-  define('DB_PASS', '12345');
-  define('DB_NAME', 'feelfilm');
+	
 
   $objCon = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 	
